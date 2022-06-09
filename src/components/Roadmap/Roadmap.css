@@ -1,0 +1,111 @@
+label {
+  display: block;
+  /* line-height: 40px; */
+}
+.option-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  position: relative;
+  top: 13.33333px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 24px;
+  width: 24px;
+  transition: all 0.15s ease-out 0s;
+  background: none;
+  border: 1px solid black;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 0.5rem;
+  outline: none;
+  position: relative;
+  z-index: 1000;
+  margin-right: 67px;
+}
+.option-input:hover {
+  background: none;
+  border-color: white;
+}
+.option-input:checked {
+  background: #ffd112;
+  border: none;
+}
+.roadmap {
+  position: relative;
+}
+.roadmap-img {
+  position: absolute;
+  z-index: 10;
+  top: -26%;
+}
+.roadmap__section {
+  font-size: 26px;
+  line-height: 36px;
+  padding: 370px 100px 0 100px;
+  background: url("/src/assets/monke6.png") 0 110% no-repeat,
+    url("/src/assets/back_roadmap.jpg") no-repeat;
+  background-size: 35%, cover;
+  min-height: 1150px;
+}
+.roadmap__title span {
+  color: #ffd112;
+  margin-bottom: 17px;
+}
+.roadmap__discr {
+  font-size: 26px;
+  line-height: 36px;
+  color: white;
+  max-width: 532px;
+  margin-bottom: 62px;
+}
+.roadmap__tab {
+  text-transform: uppercase;
+  /* display: flex; */
+}
+.roadmap__tab-listblock {
+  display: flex;
+  flex-direction: row;
+  color: #f1f1f1;
+  width: 100%;
+  justify-content: space-between;
+  list-style: none;
+  font-family: var(--font_main);
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 45px;
+  margin-bottom: 100px;
+}
+.roadmap__tab-list {
+  padding: 20px;
+  border: 1px solid none;
+  outline: none;
+}
+.roadmap__tab-list:hover {
+  color: #fff;
+  border-radius: 50%;
+  border-color: #ffd112;
+}
+.roadmap__tab-panels {
+  min-width: 900px;
+  display: block;
+  /* text-align: right; */
+}
+/* .react-tabs__tab-panel react-tabs__tab-panel--selected */
+.roadmap__tab-panels {
+  width: 100%;
+  display: block;
+  /* text-align: right; */
+  display: flex;
+  justify-content: flex-end;
+}
+.roadmap__tab-input {
+  border-top: 1px solid #fff;
+  padding: 28px 0;
+  padding-left: 57px;
+  width: 900px;
+}

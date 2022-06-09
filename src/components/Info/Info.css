@@ -1,0 +1,136 @@
+.info__container {
+  padding-left: 120px;
+  position: relative;
+}
+.info__title {
+  font-family: var(--font_second);
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 140%;
+  letter-spacing: 0.01em;
+  text-align: start;
+  margin-bottom: 27px;
+}
+.info__title span {
+  display: block;
+  color: var(--color-btn-grnd);
+}
+.info__discr {
+  font-family: var(--font_main);
+  font-weight: 500;
+  font-style: 32px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: var(--color-text);
+  max-width: 845px;
+}
+.info__content {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+
+  background: url("/src/assets/back_lines1.png") 0% 60% no-repeat,
+    url("/src/assets/color_info.png") 0% 50% no-repeat;
+  background-size: 60%, contain;
+}
+.info__monkeys {
+  width: 854px;
+  height: 713px;
+}
+.info__data {
+  padding-top: 122px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.info__data-block {
+  margin-bottom: 30px;
+}
+.info__data-head {
+  font-family: var(--font_main);
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: var(--color-head-h5);
+}
+.info__data-digit {
+  font-family: var(--font_second);
+  font-weight: 500;
+  font-size: 128px;
+  line-height: 130px;
+  letter-spacing: 0.01em;
+  color: var(--color-white);
+}
+.info__monk-black {
+  position: absolute;
+  right: 0;
+  top: -15%;
+}
+@media screen and (max-width: 1024px) {
+  .info__container {
+    padding-left: 60px;
+  }
+  .info__title {
+    font-size: 60px;
+    line-height: 100%;
+  }
+  .info__discr {
+    max-width: 680px;
+  }
+  .info__monkeys {
+    width: 434px;
+    height: 410px;
+  }
+  .info__data-digit {
+    font-size: 100px;
+    line-height: 100px;
+  }
+  .info__content {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    background: url("/src/assets/back_lines1.png") 0% 60% no-repeat,
+      url("/src/assets/color_info.png") 0% 50% no-repeat;
+    background-size: 70%, contain;
+  }
+  .info__monk-black {
+    width: 350px;
+    width: 350px;
+    top: -10%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .info__title {
+    font-size: 50px;
+    line-height: 90%;
+  }
+  .info__discr {
+    max-width: 420px;
+  }
+  .info__data {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .info__data-head {
+    font-family: var(--font_main);
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 28px;
+    color: var(--color-head-h5);
+  }
+  .info__data-digit {
+    font-size: 60px;
+    line-height: 70px;
+  }
+  .info__monkeys {
+    width: 434px;
+    height: 410px;
+  }
+}

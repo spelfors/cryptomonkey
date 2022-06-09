@@ -1,0 +1,124 @@
+.joinus {
+  /* background-size: cover; */
+  padding: 254px 0px 254px 120px;
+  background: url("/src/assets/monke8.png") right 50% no-repeat,
+    url("/src/assets/color_join.png") right 50% no-repeat,
+    url("/src/assets/back_joinus.jpg") no-repeat;
+  background-size: 55%, 120%, cover;
+  background: linear-gradient(
+    #131b22 0% rgba(19, 27, 34, 0) 50.52% #131b22 100%
+  );
+}
+.join__container {
+  max-width: 720px;
+}
+.joinus_discr {
+  font-family: var(--font_main);
+  font-size: 24px;
+  line-height: 34px;
+  color: #f1f1f1;
+  margin-bottom: 60px;
+  font-weight: 600;
+  max-width: 700px;
+}
+.joinus__title {
+  font-family: var(--font-second);
+  font-size: 70px;
+  line-height: 98px;
+  margin-bottom: 54px;
+}
+.joinus__title span {
+  color: var(--color-btn-grnd);
+}
+
+.joinus__btn-block {
+  display: flex;
+  flex-direction: row;
+  height: max-content;
+  justify-content: start;
+  align-items: start;
+}
+.joinus___btn {
+  font-family: var(--font_main);
+  font-size: 22px;
+  line-height: 29px;
+  border-radius: 10px;
+  min-width: 320px;
+}
+.joinus___btn_btn1 {
+  background-color: var(--color-btn-grnd);
+}
+.joinus___btn_btn2 {
+  background-color: var(--color-head-h5);
+}
+.joinus___btn_btn1 {
+  margin-right: 54px;
+}
+@media screen and (max-width: 1024px) {
+  .joinus {
+    /* background-size: cover; */
+    padding: 184px 0px 184px 50px;
+  }
+  .joinus__title {
+    font-family: var(--font-second);
+    font-size: 50px;
+    line-height: 68px;
+    margin-bottom: 54px;
+  }
+  .joinus_discr {
+    font-family: var(--font_main);
+    font-size: 20px;
+    line-height: 24px;
+    color: #f1f1f1;
+    margin-bottom: 60px;
+    font-weight: 600;
+    max-width: 550px;
+  }
+  .joinus___btn {
+    font-family: var(--font_main);
+    font-size: 20px;
+    line-height: 26px;
+    border-radius: 10px;
+    min-width: 200px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .joinus {
+    /* background-size: cover; */
+    padding: 254px 0px 254px 120px;
+    background: url("/src/assets/monke8.png") right 165% no-repeat,
+      url("/src/assets/color_join.png") right 50% no-repeat,
+      url("/src/assets/back_joinus.jpg") no-repeat;
+    background-size: 55%, 120%, cover;
+    background: linear-gradient(
+      #131b22 0% rgba(19, 27, 34, 0) 50.52% #131b22 100%
+    );
+  }
+  .joinus {
+    /* background-size: cover; */
+    padding: 84px 0px 84px 30px;
+  }
+  .joinus__title {
+    font-family: var(--font-second);
+    font-size: 50px;
+    line-height: 68px;
+    margin-bottom: 54px;
+  }
+  .joinus_discr {
+    font-family: var(--font_main);
+    font-size: 16px;
+    line-height: 20px;
+    color: #f1f1f1;
+    margin-bottom: 60px;
+    font-weight: 600;
+    max-width: 450px;
+  }
+  .joinus___btn {
+    font-family: var(--font_main);
+    font-size: 16px;
+    line-height: 18px;
+    border-radius: 10px;
+    min-width: 200px;
+  }
+}

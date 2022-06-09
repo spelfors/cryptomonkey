@@ -1,0 +1,113 @@
+.footer__container {
+  padding: 68px 68px 0 127px;
+}
+.footer__blockup {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.footer__item {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+.footer__list {
+  font-family: var(--font_main);
+  font-size: 20px;
+  line-height: 36px;
+  color: var(--color-white);
+  margin-right: 50px;
+}
+.footer__list:last-child {
+  margin-right: 0;
+}
+.footer__blockdown {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_copywrite {
+  font-size: 20px;
+  line-height: 36px;
+  font-family: var(--font_main);
+}
+.footer__social-links {
+  display: flex;
+  flex-direction: row;
+  min-width: 250px;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__social-link {
+  margin-right: -15px;
+}
+.footer__social-link img {
+  width: 70%;
+  height: 70%;
+  text-align: center;
+}
+@media screen and (max-width: 1024px) {
+  .footer__container {
+    padding: 48px 48px 0 77px;
+  }
+  .footer_copywrite {
+    font-size: 14px;
+    line-height: 16px;
+    font-family: var(--font_main);
+  }
+  .footer__social-link {
+    margin-right: -25px;
+  }
+  .footer__social-link img {
+    width: 50%;
+    height: 50%;
+    text-align: center;
+  }
+  .footer__blockup ~ img {
+    width: 60%;
+    height: 60%;
+  }
+  .footer__social-link {
+    margin-right: -25px;
+  }
+  .footer__list {
+    font-size: 14px;
+    line-height: 14px;
+    margin-right: 10px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .footer__container {
+    padding: 48px 48px 0 48px;
+  }
+
+  .footer_copywrite {
+    font-size: 12px;
+    line-height: 12px;
+    font-family: var(--font_main);
+  }
+  .footer__social-link {
+    margin-right: -25px;
+  }
+  .footer__social-link img {
+    width: 50%;
+    height: 50%;
+    text-align: center;
+  }
+  .footer__blockup ~ img {
+    width: 30%;
+    height: 30%;
+  }
+  .footer__social-link {
+    margin-right: -25px;
+  }
+  .footer__list {
+    font-size: 12px;
+    line-height: 14px;
+    margin-right: 10px;
+  }
+}
